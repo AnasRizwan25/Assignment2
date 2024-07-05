@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="LogIn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="div0">
+            <ul class="underlist1">
+                <div><h1 class="color-logo-web">MyWeb</h1></div>
+                <div>
+                <a class="linking" href="./Home.html"><li class="list1">Home</li></a>
+                <a class="linking" href="./Resume.html"><li class="list1">Resume</li></a>
+                <a class="linking" href="./Gallery.html"><li class="list1">Gallery</li></a>
+                <a class="linking" href="./LogIN.html"><li class="list1">Log In</li></a>
+                </div>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="border1">
+            <form>
+                <fieldset>
+                    <legend>Input Form Detail:</legend>
+                <label for="Username">Username: </label>
+                <input type="text" name="Username" id="Username" required placeholder="Enter your name " size="30">
+                <br/>
+                <label for="Password">Password: </label>
+                <input type="password" name="Password" id="password" required size="31">
+                <br/>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required size="30">
+                <br/><br/>
+                <input type="radio" name="Gender" id="Male" value="male" checked>
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female" value="Female">
+                <label for="Female">Female</label>
+                <br/>
+                <label for="datatime">Enter your Age: </label>
+                <input type="datetime-local" name="datatime" id="datatime" required>
+                <br/><br/>
+                
+                <input type="checkbox" name="Skills" id="Web Dev" value="WebDev" checked>
+                <label for="Web Dev">Website Developer</label><br/>
+                <input type="checkbox" name="Skills" id="App Dev" value="AppDev">
+                <label for="App Dev">App Developer</label><br/>
+                <input type="checkbox" name="Skills" id="Data Analytics" value="DataAnalytics">
+                <label for="Data Analytics">Data Analytics</label><br/>
+                <input type="checkbox" name="Skills" id="Dot Net Dev" value="DotnetFev">
+                <label for="Dot Net Dev">Dot Net Developer</label><br/>
+                <input type="checkbox" name="Skills" id="Big Data Engineer" value="BigdataEngineer">
+                <label for="Big Data Engineer"> Big Data Engineer</label><br/><br/>
+                <label for="pic">Upload Your Pic: </label><br/>
+                <input type="file" name="Pic" id="pic" required>
+                <br/><br/>
+                <input class="buttton" type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

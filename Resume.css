@@ -1,0 +1,21 @@
+table{
+    border-collapse:collapse ;
+}
+td,th{
+    padding-left: 5px;
+}
+.main{
+    padding: 10px;
+}
+p,table,ul{
+    margin-bottom: 20px;
+}
+.resume-top{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.resume-top p{
+    font-size: 12px;
+}

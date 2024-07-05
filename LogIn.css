@@ -1,0 +1,15 @@
+.border1{
+    padding: 20px;
+}
+.buttton{
+    padding: 9px 22px;
+    color: white;
+    border: none;
+    background-color: rgb(56, 209, 76);
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+fieldset{
+    padding: 15px;
+}
