@@ -3,11 +3,15 @@
     padding: 0;
     font-family: Poppins;
     color: black;
+    font-size: 14px;
 }
 .underlist1{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+.color-logo-web{
+    font-size: 30px;
 }
 .list1{
     display: inline-block;
@@ -44,7 +48,7 @@ a{
 }
 .div0{
     background-color: rgb(107, 207, 121);
-    
+    width: 100%;
 }
 .color-logo-web{
     color: white;
